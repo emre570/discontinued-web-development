@@ -1,0 +1,24 @@
+.blue th{
+    background-color: #2196f3;
+    color: white;
+}
+.green th{
+    background-color: #4caf50;
+    color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    text-align: left;
+    background-color: #2196f3;
+    color: white;
+}
+table td, table th{
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
