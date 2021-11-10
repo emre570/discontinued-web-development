@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+section{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    height: 935px;
+}
+.btn{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    padding: 2rem 1.6rem;
+    font-weight: 400;
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: color .4s;
+}
+.btn:hover{
+    color: #2C3E50;
+    background-color: #fff;
+}
+.btn-dark{
+    background-color: #2C3E50;
+}
+.btn-dark i{
+    padding-right: .3rem;
+}
+.btn-large{
+    font-size: 2rem;
+    padding: 2.2rem 1.6rem;
+}
+.btn-social{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    line-height: 2rem;
+    text-align: center;
+}
+h1 h2 h3 h4 h5 h6{
+    font-weight: 700;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.line-dark{
+    border: .4rem solid #2C3E50;
+    max-width: 65rem;
+    margin: 2.5rem auto;
+}
+.line-light{
+    border: .4rem solid #fff;
+    max-width: 80rem;
+    margin: 2.5rem auto;
+}
+
+/*navbar*/
+nav{
+    background-color: #2C3E50;
+    color: #fff;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    position: sticky;
+    width: 100%;
+}
+#nav-links{
+    float: right;
+}
+#nav-links .nav-link{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    letter-spacing: .1rem;
+    padding: 1.6rem;
+    transition: color .3s;
+}
+#nav-links .nav-item{
+    float: left;
+    margin: .4rem;
+}
+#nav-links .nav-link:hover{
+    color: #18bc9c;
+}
+#logo-box{
+    float: left;
+}
+#logo-box .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+/*header*/
+header{
+    background-color: #18bc9c;
+    padding-top: calc(112px + 10rem);
+    padding-bottom: 112px;
+    text-align: center;
+}
+header h1{
+    color: #fff;
+    font-size: 7.6rem;
+}
+header h3{
+    padding-top: 3rem;
+}
+.stripe{
+    border: .4rem solid #fff;
+    max-width: 85rem;
+    margin: 2.5rem auto;
+}
+
+/*Portfolio*/
+#portfolio h2{
+    font-size: 4.8rem;
+    color: #2C3E50;
+}
+#portfolio hr{
+    border: .4rem solid #2C3E50;
+    max-width: 65rem;
+    margin: 2.5rem auto;
+}
+.col{
+    float: left;
+    width: 33.33333%;
+    padding: 10px;
+}
+.portfolio-item{
+    position: relative;
+}
+.portfolio-item:hover
+.img-overlay{
+    opacity: .8;
+}
+.portfolio-item img{
+    display: block;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #18bc9c;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.img-overlay .icon{
+    color: #fff;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*About*/
+#about{
+    background-color: #18bc9c;
+    color: #fff;
+    font-size: 3rem;
+}
+#about p{
+    font-size: 2.5rem;
+}
+.about-text{
+    text-align: left;
+}
+.about-text .left{
+    float: left;
+    width: 50%;
+    padding: 5rem;
+}
+.about-text .right{
+    float: right;
+    width: 50%;
+    padding: 5rem;
+}
+/*Contact*/
+#contact h2{
+    font-size: 4.2rem;
+    color: #2C3E50;
+}
+#contact-form{
+    width: 70%;
+    margin: 0 auto;
+}
+.form-group{
+    border-bottom: 1px solid #2C3E50;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+.form-group input, .form-group textarea{
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 2rem;
+}
+.form-group input:focus, 
+.form-group textarea:focus{
+    outline: none;
+}
+/*Footer*/
+footer{
+    padding-top: 6rem;
+    padding-bottom: 30rem;
+    background-color: #2C3E50;
+    color: #fff;
+    text-align: center;
+}
+footer h4{
+    font-size: 2.4rem;
+}
+footer p{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+footer li{
+    display: inline-block;
+    margin-right: 1rem;
+}
